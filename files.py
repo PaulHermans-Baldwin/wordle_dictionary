@@ -19,7 +19,7 @@ import urllib.request
 # Read the specified file, and return the text as a single element
 # containing its contents.
 def read_file(passage_number):
-    file_path = 'https://raw.githubusercontent.com/PaulHermans-Baldwin/wordle_dictionary/main/passage_' + \
+    file_path = 'https://raw.githubusercontent.com/PaulHermans-Baldwin/wordle_dictionary/master/Content/passage_' + \
                 str(passage_number) + '.txt'
     with urllib.request.urlopen(file_path) as response:
         text_passage = response.read().decode('utf-8')
