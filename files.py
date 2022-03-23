@@ -6,7 +6,7 @@
 
     This code is written for you because it is beyond the scope of
     what you have learned so far. You should write all your code
-    in the main.py file.
+    in the wordle_dictionary.py file.
 
     There is also NO NEED TO COPY any code from this file!
 
